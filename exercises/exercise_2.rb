@@ -8,6 +8,5 @@ puts "----------"
 
 @store1 = Store.find(1)
 @store2 = Store.find(2)
-
 @store1.annual_revenue = 425000
 @store1.save
